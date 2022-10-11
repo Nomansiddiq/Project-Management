@@ -1,0 +1,59 @@
+\documentclass[12 pt,letterpaper]{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{logo.png}
+    \caption{FAST NUCES PESHAWAR}
+    
+\end{figure}
+
+
+\title{Safe Path Recommender}
+\author{Noman Siddique}
+\date{01- Sep - 2022 }
+
+
+\maketitle
+
+\section*{Introduction}
+
+
+
+
+
+\paragraph{The problem of crime is growing every second in our country. Crimes like robbery, murder, theft, kidnapping, etc have increased plenty . But cases about crimes against women, especially harassment , rape and molestation have shot up dramatically. Unfortunately, there’s immense insecurity and fear in the fair sex when they are out on the road, not just in the dark but also within the day. This insecurity within the society has driven the idea behind this project.It enables women to work out the safest route from one place to another, with the target to make travelling for women as safe as possible. consistent with National Crime Records annual report, Karachi was rated the foremost place
+in the country. Karachi had the worst rate , 182.1 crimes per 100,000 women against national average of 77.2. All the locations of the town are clustered on the basis of the crime records of that location. The crimes against women are given more weight-age. The centre of every cluster is the index of that cluster.Each cluster is assigned a magnitude index consistent with the index calculated.\\
+The safest route is decided by calculating the danger index, which is that the average of the index of each location in the path. The user enters the source and destination at the maps interface and therefore the map shows maximum 3 paths, out of which, the one with the smallest amount danger index is the safest.\\
+The data-set used is basically huge and nearly impossible to analyse manually. It has 80,052 records for 166 localities and 14 features. The features are the kinds of crimes and values under them are the number of reports of that type of crime.This initiative may be a preventive measure, promoting the idea: “Look Before You Leave”. this is often presented in the form of a web-application and works with the motive to avoid any place which is prone to mishaps with
+women instead of getting into any problem, as precaution is usually better than cure. this may keep them untouched from any ugly feeling and keep their confidence uplifted.Social development is one among the key factors that help prevent crime. during this study, unsupervised learning technique is applied on crime records to predict the sort and intensity of crime. This work are going to
+be very helpful to the police department in order to decrease crime.}
+
+
+
+\section{Requirement}
+The project is developed as an internet application with React.js getting used to develop the user interface. Flask framework is employed to develop the backend which houses the actual algorithm which is used to compute the safest route details. the method of using the user input data to generating the result takes place in the following approach.
+
+\subsection{Fetching User Input}
+\paragraph{The user features a choice of selected locations on the interface, any two
+of which may be chosen from as the source and destination. The locations are
+stores on a JSON server as a JSON file and may be updated as needed. The user
+does this by typing his choices during a search box. User provides input within
+the form of two locations On submitting the form, his responses are fetched and
+sent to the back-end for its usage. The interface is developed using React.Js
+framework which is efficient for applications with lesser web pages.
+}
+
+\subsection{Assign Unique ID to Input Choices}
+\paragraph{Every input choice made by the user is related to a unique ID. this is often necessary for efficient computation and easy retrieval of the related feature dataset}
+
+\subsection{Retrieve Relevant Feature Data-set}
+\paragraph{Many features exist between any two destination. These contain information like the number of hospitals, police stations, gas stations, streetlights, accident data, and lots of such related data as represented in Table-1. it’s stored in the form of a file. The feature set data are often queried relevant to the IDs of the location. There could also be multiple routes between two locations, during which case every path within the route has its own feature set which is unique to it.
+}
+
+\end{document}
